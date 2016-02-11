@@ -1,4 +1,4 @@
-PDFJS.disableWorker = true;
+//PDFJS.disableWorker = ;
 PDFJS.getDocument('alphatrans.pdf').then(function(pdf){
     // Fetch the page.
     pdf.getPage(1).then(function (page) {
